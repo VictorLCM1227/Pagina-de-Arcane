@@ -83,11 +83,8 @@ section#hero a{
     text-decoration: none;
 }
 
-#informacoes {
-    background-color: aqua;
-}
 
-#sinopse {
+.sinopse {
     background-color: pink;
 }
 
