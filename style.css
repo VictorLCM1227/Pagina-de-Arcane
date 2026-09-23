@@ -46,8 +46,13 @@ a:hover {
 }
 
 #hero {
-    background-color: red;
+    background-image: url(imagens/arcane-season-2-ef.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
+
 
 #informacoes {
     background-color: aqua;
