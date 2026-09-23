@@ -1,0 +1,63 @@
+
+@font-face {
+    font-family: 'Complete Destroy';
+    src: url(28\ Days\ Later.ttf);
+}
+
+:root {
+    --fundo: #111525;
+    --fonte1: 'Complete Destroy';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--fundo);
+    color: #BEBFC0;
+    font-family: var(--fonte1);
+    text-align: center;
+}
+
+header h1 {
+    padding: 20px;
+    font-size: 100px;
+}
+
+nav {
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inteiro {
+    height: 100vh;
+}
+
+#hero {
+    background-color: red;
+}
+
+#informacoes {
+    background-color: aqua;
+}
+
+#sinopse {
+    background-color: pink;
+}
+
+
+#personagens {
+    background-color: green;
+}
